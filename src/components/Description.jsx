@@ -40,5 +40,5 @@ function AnimatedText({children}) {
     });
   }, []);
 
-  return <p ref={text}>{children}</p>;
+  return <p className="text-3xl" ref={text}>{children}</p>;
 }

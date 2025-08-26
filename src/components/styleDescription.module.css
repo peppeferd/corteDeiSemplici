@@ -1,10 +1,9 @@
 .description {
   position: relative;
   color: rgb(0, 0, 0);
-  font-size: 3vw;
   text-transform: uppercase;
   margin-top: 30vw;
-  margin-left: 20vw;
+  margin-left: 7vw;
   margin-bottom: 30vw;
 }
 .description p {
