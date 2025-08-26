@@ -1,8 +1,10 @@
 import BannerAlloggi from "@/components/BannerAlloggi";
+import BannerCelebrazioni from "@/components/BannerCelebrazioni";
 import BannerOspitalità from "@/components/BannerOspitalità";
 import Description from "@/components/Description";
 import IntroAlloggi from "@/components/IntroAlloggi";
 import IntroOspitalità from "@/components/IntroOspitalità";
+import LastSection from "@/components/LastSection";
 import React from "react";
 
 const Home = () => {
@@ -20,6 +22,12 @@ const Home = () => {
         </div>
         <div className="absolute md:right-0">
           <BannerAlloggi />
+        </div>
+      </div>
+      <div className="flex md:flex-row flex-col-reverse md:gap-0 gap-[300vh] mb-[100vh]">
+        <BannerCelebrazioni />
+        <div className="absolute md:right-0 w-[1000px]">
+          <LastSection />
         </div>
       </div>
     </div>
