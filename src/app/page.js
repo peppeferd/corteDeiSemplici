@@ -1,5 +1,7 @@
+import BannerAlloggi from "@/components/BannerAlloggi";
 import BannerOspitalità from "@/components/BannerOspitalità";
 import Description from "@/components/Description";
+import IntroAlloggi from "@/components/IntroAlloggi";
 import IntroOspitalità from "@/components/IntroOspitalità";
 import React from "react";
 
@@ -11,6 +13,14 @@ const Home = () => {
       </div>
       <div className="my-[100vh]">
         <Description />
+      </div>
+      <div className="flex md:flex-row flex-col-reverse md:gap-0 gap-[100vh]">
+        <div>
+          <IntroAlloggi />
+        </div>
+        <div className="absolute right-0">
+          <BannerAlloggi />
+        </div>
       </div>
     </div>
   );

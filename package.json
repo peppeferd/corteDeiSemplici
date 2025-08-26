@@ -8,8 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.2",
     "antd": "^5.27.1",
     "gsap": "^3.13.0",
+    "motion": "^12.23.12",
     "next": "15.5.0",
     "react": "19.1.0",
     "react-device-detect": "^2.2.3",
