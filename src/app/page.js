@@ -24,7 +24,7 @@ const Home = () => {
           <BannerAlloggi />
         </div>
       </div>
-      <div className="flex md:flex-row flex-col-reverse md:gap-0 gap-[300vh] mt-[600vh]">
+      <div className="flex md:flex-row flex-col-reverse md:gap-0 gap-[300vh] mt-[400vh]">
         <div>
           <BannerCelebrazioni />
         </div>
