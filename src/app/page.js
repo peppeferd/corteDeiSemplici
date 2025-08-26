@@ -14,7 +14,7 @@ const Home = () => {
       <div className="my-[100vh]">
         <Description />
       </div>
-      <div className="flex md:flex-row flex-col-reverse md:gap-0 gap-[100vh]">
+      <div className="flex md:flex-row flex-col-reverse md:gap-0 gap-[300vh]">
         <div>
           <IntroAlloggi />
         </div>
