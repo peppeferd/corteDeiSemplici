@@ -25,7 +25,7 @@ export default function LastSection () {
   }, []);
 
   return (
-    <main ref={container} className="relative h-[200vh]">
+    <main ref={container} className="relative ">
       <Section1 scrollYProgress={scrollYProgress} />
       <Section2 scrollYProgress={scrollYProgress} />
     </main>
