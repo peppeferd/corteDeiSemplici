@@ -1,7 +1,7 @@
 'use client';
 import Image from 'next/image';
 import Pic1 from '../../public/images/matrimonio-a-tema.jpeg';
-import Pic2 from '../../public/images/wawavawv.jpg';
+import Pic2 from '../../public/images/photo3jpg.jpg';
 import {useScroll, useTransform, motion} from 'framer-motion';
 import {useEffect, useRef} from 'react';
 import Lenis from 'lenis';
