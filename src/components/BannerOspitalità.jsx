@@ -50,8 +50,8 @@ const BannerOspitalità = () => {
       </BrowserView>
       <MobileView>
         <>
-      <Button type="primary" onClick={showModal}>
-        Open Modal
+      <Button className='text-center' type="primary" onClick={showModal}>
+       Inizia da qui
       </Button>
       <Modal
         title="Basic Modal"
