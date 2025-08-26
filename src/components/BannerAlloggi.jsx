@@ -49,16 +49,17 @@ const BannerAlloggi = () => {
       </BrowserView>
       <MobileView>
         <>
-    <div className='text-center my-12 md:ml-0 ml-[50%]'> <Button className='text-center' type="primary" onClick={showModal}>
-       Inizia da qui
-      </Button></div> 
-      <Modal
+       <div className='text-center my-56 md:ml-0 ml-[100%]'> <Button className='text-center' type="primary" onClick={showModal}>
+        Inizia da qui
+       </Button>
+        </div> 
+        <Modal
         title="Basic Modal"
         closable={{ 'aria-label': 'Custom Close Button' }}
         open={isModalOpen}
         onOk={handleOk}
         onCancel={handleCancel}
-      >
+        >
         <div className="w-fit py-56 text-center bg-linear-to-r from-amber-300 to-amber-50 h-full border-l-4 border-t-4 border-b-4 border-black">
           <div className="flex flex-row my-3">
             <Image src={logo} alt="" width={100} height={100} />
@@ -81,7 +82,7 @@ const BannerAlloggi = () => {
           <Button className="" type="primary">Inizia da qui</Button>
         </div>
       </Modal>
-    </>
+      </>
       </MobileView>
     </div>
   );
