@@ -20,7 +20,7 @@ const BannerAlloggi = () => {
     setIsModalOpen (false);
   };
   return (
-    <div className='text-center md:mt-0 mt-[300vh]'>
+    <div className='text-center'>
       <BrowserView>
         <div className="w-100 px-5 py-56 text-center bg-linear-to-r from-amber-300 to-amber-50 h-full border-l-4 border-t-4 border-b-4 border-black">
           <div className="flex flex-row my-3">
@@ -49,7 +49,7 @@ const BannerAlloggi = () => {
       </BrowserView>
       <MobileView>
         <>
-    <div className='text-center my-12 md:ml-0 ml-[50&]'> <Button className='text-center' type="primary" onClick={showModal}>
+    <div className='text-center my-12 md:ml-0 ml-[50%]'> <Button className='text-center' type="primary" onClick={showModal}>
        Inizia da qui
       </Button></div> 
       <Modal
