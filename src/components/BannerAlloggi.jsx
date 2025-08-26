@@ -49,7 +49,7 @@ const BannerAlloggi = () => {
       </BrowserView>
       <MobileView>
         <>
-    <div className='text-center my-12'> <Button className='text-center' type="primary" onClick={showModal}>
+    <div className='text-center my-12 mx-auto'> <Button className='text-center' type="primary" onClick={showModal}>
        Inizia da qui
       </Button></div> 
       <Modal
@@ -73,13 +73,9 @@ const BannerAlloggi = () => {
               Scorri per scoprire come ogni dettaglio può essere personalizzato e scegli il capitolo da cui iniziare la tua storia con noi.
             </h3>
             <br />
-            <h1> Ospitalità: il viaggio che ti aspetta.</h1>
+            <h1>Alloggi.</h1>
             <br /><h3>
-              Corte dei Semplici nasce dall'amore per l'accoglienza,
-              la natura e il tempo di qualità.
-              Qui ogni dettaglio è pensato per risvegliare i tuoi sensi,
-              nutrire il presente e lasciare un segno indelebile
-              nella tua memoria.
+             Le nostre camere e suite sono un rifugio di tranquillità, dove il calore del legno antico si fonde con l'eleganza discreta di un ambiente curato nei minimi dettagli.
             </h3>
           </div>
           <Button className="" type="primary">Inizia da qui</Button>
