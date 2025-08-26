@@ -25,7 +25,7 @@ const Home = () => {
         </div>
       </div>
       <div className="flex md:flex-row flex-col-reverse md:gap-0 gap-[300vh] mt-[200vh]">
-        <div className="md:mt-[100px] mt-[100vh]">
+        <div className="md:mt-[100px] mt-[50vh]">
           <BannerCelebrazioni />
         </div>
         <div className="absolute md:right-0 md:w-[1000px] w-screen">
