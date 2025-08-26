@@ -18,7 +18,7 @@ const Home = () => {
         <div>
           <IntroAlloggi />
         </div>
-        <div className="md:absolute md:right-0">
+        <div className="absolute md:right-0">
           <BannerAlloggi />
         </div>
       </div>
