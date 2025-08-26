@@ -49,7 +49,7 @@ const BannerAlloggi = () => {
       </BrowserView>
       <MobileView>
         <>
-    <div className='text-center my-12 mx-auto'> <Button className='text-center' type="primary" onClick={showModal}>
+    <div className='text-center my-12 md:ml-0 ml-[50&]'> <Button className='text-center' type="primary" onClick={showModal}>
        Inizia da qui
       </Button></div> 
       <Modal
