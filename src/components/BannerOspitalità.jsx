@@ -45,14 +45,14 @@ const BannerOspitalità = () => {
               nella tua memoria.
             </h3>
           </div>
-          <Button className="" type="primary">Inizia da qui</Button>
+          <Button type="primary">Inizia da qui</Button>
         </div>
       </BrowserView>
       <MobileView>
         <>
-      <Button className='text-center' type="primary" onClick={showModal}>
+    <div className='text-center'> <Button className='text-center' type="primary" onClick={showModal}>
        Inizia da qui
-      </Button>
+      </Button></div> 
       <Modal
         title="Basic Modal"
         closable={{ 'aria-label': 'Custom Close Button' }}
