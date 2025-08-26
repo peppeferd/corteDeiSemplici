@@ -24,8 +24,10 @@ const Home = () => {
           <BannerAlloggi />
         </div>
       </div>
-      <div className="flex md:flex-row flex-col-reverse md:gap-0 gap-[300vh] my-[100vh]">
-        <BannerCelebrazioni />
+      <div className="flex md:flex-row flex-col-reverse md:gap-0 gap-[300vh] mt-[600vh]">
+        <div>
+          <BannerCelebrazioni />
+        </div>
         <div className="absolute md:right-0 md:w-[1000px] w-screen">
           <LastSection />
         </div>
