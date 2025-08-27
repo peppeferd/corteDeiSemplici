@@ -28,7 +28,7 @@ const Home = () => {
         <div className="md:mt-[100px] mt-[50vh]">
           <BannerCelebrazioni />
         </div>
-        <div className="absolute md:right-0 md:w-[1000px] w-screen md:mt-0 mt-[100vh]">
+        <div className="absolute md:right-0 md:w-[1000px] w-screen">
           <LastSection />
         </div>
       </div>
