@@ -37,7 +37,7 @@ const BannerCelebrazioni = () => {
           <Button type="primary">Inizia da qui</Button>
         </div>
       </BrowserView>
-      <MobileView>
+      <MobileView className='my-[100vh]'>
         <>
     <div className='text-center my-12'> <Button className='text-center' type="primary" onClick={showModal}>
        Inizia da qui
