@@ -54,7 +54,7 @@ const BannerOspitalità = () => {
        Inizia da qui
       </Button></div> 
       <Modal
-        title="Basic Modal"
+        title="Ospitalità"
         closable={{ 'aria-label': 'Custom Close Button' }}
         open={isModalOpen}
         onOk={handleOk}
